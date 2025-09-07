@@ -8,8 +8,14 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
+}
+.dark-3{
+    color: #757575;
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -20,7 +26,12 @@
     border-radius: 5px;
     border: none;
 }
-
+/* Header */
+.header{
+    background-image: url(../images/developer.png),  url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
 /* Nav styles */
 nav{
     display:flex;
@@ -44,4 +55,32 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner Style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+    /* max-height: 356px; */
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 550;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-profile-picture{
+   width: 580px; 
+   height: 676px;
 }
